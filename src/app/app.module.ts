@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { ProgramCard } from './components/program.card.component';
 import { ProgramCardContainer } from './components/program.card.container.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,8 +22,6 @@ import { ProgramCardContainer } from './components/program.card.container.compon
     HttpClientModule,
     DragDropModule,
   ],
-  providers: [],
-
   bootstrap: [AppComponent]
 })
 export class AppModule { }

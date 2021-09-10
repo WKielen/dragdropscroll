@@ -28,6 +28,7 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
     'h3 { font-size: 0.8rem; overflow-wrap: break-word; word-wrap: break-word; hyphens: auto;overflow-wrap: initial; padding-left: 2px; }',
     '.header { font-size: 1rem; color: white; text-align: center; font-weight: bold; padding: 10px 0;}'
   ],
+
 })
 
 export class ProgramCard implements OnChanges {
